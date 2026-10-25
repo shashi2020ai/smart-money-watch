@@ -1,0 +1,39 @@
+name: Watch SEC 13F filings
+
+on:
+  schedule:
+    - cron: "30 13 * * *"      # every day 13:30 UTC; the script itself skips days outside the filing window (except Mondays)
+  workflow_dispatch:            # lets you run it by hand from the Actions tab
+    inputs:
+      force:
+        description: "Run even outside the filing window"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check SEC for new 13F filings
+        env:
+          SEC_EMAIL: ${{ secrets.SEC_EMAIL }}
+        run: python watch.py ${{ github.event_name == 'workflow_dispatch' && inputs.force && '--force' || '' }}
+      - name: Save status.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git diff --cached --quiet || git commit -m "Update filing status"
+          git push
