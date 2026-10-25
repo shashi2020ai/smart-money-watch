@@ -1,0 +1,144 @@
+[
+ {
+  "id": "SA",
+  "name": "Situational Awareness",
+  "cik": "0002045724",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "WR",
+  "name": "Whale Rock",
+  "cik": "0001387322",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "LS",
+  "name": "Light Street",
+  "cik": "0001569049",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "LP",
+  "name": "Lone Pine",
+  "cik": "0001061165",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "CO",
+  "name": "Coatue",
+  "cik": "0001135730",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "D1",
+  "name": "D1 Capital",
+  "cik": "0001747057",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "PS",
+  "name": "Pershing Square",
+  "cik": "0001336528",
+  "alias_ciks": [
+   "0002026053"
+  ],
+  "active": true
+ },
+ {
+  "id": "P72",
+  "name": "Point72",
+  "cik": "0001603466",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "TP",
+  "name": "Third Point",
+  "cik": "0001040273",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "VK",
+  "name": "Viking Global",
+  "cik": "0001103804",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "TCI",
+  "name": "TCI",
+  "cik": "0001647251",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "PC",
+  "name": "PRIMECAP",
+  "cik": "0000763212",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "DV",
+  "name": "Davis",
+  "cik": "0001036325",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "HA",
+  "name": "Harris (Oakmark)",
+  "cik": "0000813917",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "DC",
+  "name": "Dodge & Cox",
+  "cik": "0000200217",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "MV",
+  "name": "Maverick",
+  "cik": "0000934639",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "FE",
+  "name": "First Eagle",
+  "cik": "0001325447",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "FPA",
+  "name": "FPA",
+  "cik": "0001377581",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "BRK",
+  "name": "Berkshire Hathaway",
+  "cik": "0001067983",
+  "alias_ciks": [],
+  "active": true
+ },
+ {
+  "id": "BP",
+  "name": "Baupost",
+  "cik": "0001061768",
+  "alias_ciks": [],
+  "active": true
+ }
+]
