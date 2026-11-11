@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-10T14:26:04+00:00",
- "content_hash": "cb0e59cb624fedd5",
+ "checked_at": "2026-11-11T14:28:16+00:00",
+ "content_hash": "248909e65957dde3",
  "in_filing_window": true,
  "managers": {
   "BP": {
@@ -213,6 +213,13 @@
   "DV": {
    "filings": [
     {
+     "accession": "0001036325-26-000041",
+     "cik": "0001036325",
+     "filed": "2026-11-10",
+     "form": "13F-HR",
+     "period": "2026-09-30"
+    },
+    {
      "accession": "0001036325-26-000020",
      "cik": "0001036325",
      "filed": "2026-08-11",
@@ -259,6 +266,13 @@
   },
   "FE": {
    "filings": [
+    {
+     "accession": "0001325447-26-000037",
+     "cik": "0001325447",
+     "filed": "2026-11-10",
+     "form": "13F-HR",
+     "period": "2026-09-30"
+    },
     {
      "accession": "0001325447-26-000033",
      "cik": "0001325447",
@@ -882,17 +896,15 @@
     "Viking Global",
     "TCI",
     "PRIMECAP",
-    "Davis",
     "Harris (Oakmark)",
     "Dodge & Cox",
     "Maverick",
-    "First Eagle",
     "FPA",
     "Berkshire Hathaway",
     "Baupost"
    ],
    "period": "2026-09-30",
-   "received": 0,
+   "received": 2,
    "total": 20
   },
   {
